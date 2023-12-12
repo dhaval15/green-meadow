@@ -1,0 +1,10 @@
+---
+{"dg-publish":true,"permalink":"/40-reading/books/station-eleven-emily-st-john-mandel/","title":"Station Eleven"}
+---
+
+
+![cover|150](http://books.google.com/books/content?id=vGpyAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
+
+# Station Eleven
+##### Description
+NOW A MAJOR TV SERIES Finalist for CBC Canada Reads 2023 Winner of the Toronto Book Award and the Arthur C. Clarke Award Finalist for the National Book Award, the PEN/Faulkner Award, and the Sunburst Award Longlisted for the Baileys Prize and for the Andrew Carnegie Medal for Excellence in Fiction A New York Times and Globe and Mail bestseller A Best Book of the Year in The Globe and Mail, The Washington Post, Entertainment Weekly, Kirkus Reviews, and Time magazine An audacious, darkly glittering novel about art, fame and ambition, set in the eerie days of civilization’s collapse Day One The Georgia Flu explodes over the surface of the earth like a neutron bomb. News reports put the mortality rate at over 99%. Week Two Civilization has crumbled. Year Twenty A band of actors and musicians, called the Travelling Symphony, move through the territories of a changed world, performing concerts and Shakespeare at the settlements that have formed. Twenty years after the pandemic, life feels relatively safe. But now a new danger looms, and it threatens the world every hopeful survivor has tried to rebuild. Moving backward and forward in time, from the glittering years just before the collapse to the strange and altered world that exists twenty years after, Station Eleven charts the unexpected twists of fate that connect six people: celebrated actor Arthur Leander; Jeevan, a bystander warned about the flu just in time; Arthur's first wife, Miranda; Arthur's oldest friend, Clark; Kirsten, an actress with the Travelling Symphony; and the mysterious and self-proclaimed "prophet." Sometimes terrifying, sometimes tender, Station Eleven tells a story about the fragility of life, the relationships that sustain us, and the beauty of the world as we know it.
