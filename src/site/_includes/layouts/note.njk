@@ -44,7 +44,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
               {% endfor %}
             </div>
           {% endif %}
-          {% if settings.dgShowInlineAuthor === true && author %}
+          {% if settings.dgShowInlineAuthor === true and author %}
             <p style="text-align: end">{{ author }}</p>
           {% endif %}
           {%- if meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated -%}
