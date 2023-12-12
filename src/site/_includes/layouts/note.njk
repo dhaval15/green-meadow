@@ -13,9 +13,8 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% for imp in dynamics.notes.head %}
       {% include imp %}
     {% endfor %}
-    {% if author %}{{
-      <p style="text-align: end"></p>
-    }}
+    {% if author %}
+      <p style="text-align: end">{{ author }}</p>
     {% endif %}
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
