@@ -45,7 +45,7 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          echo "GitHub Token: ${{API_TOKEN_GITHUB}}"
+          echo "GitHub Token: ${{ env.API_TOKEN_GITHUB }}"
           git remote add target-repo https://github.com/dhaval15/meadow.git # Change to your new repository URL
           git push target-repo main # Change to your target branch
         env:
