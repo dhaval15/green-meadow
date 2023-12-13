@@ -46,4 +46,5 @@ jobs:
         run: |
           # git remote add target-repo https://github.com/dhaval15/meadow.git # Change to your new repository URL
           # git push target-repo main # Change to your target branch
+          git commit -m "workflow: build"
           git push
