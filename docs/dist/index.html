@@ -1315,7 +1315,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-12-13T07:00:06.089Z';
+        const searchIndexDate = '2023-12-13T07:03:57.779Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -1327,9 +1327,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-12-13T07:00:06.089Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-12-13T07:03:57.779Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-12-13T07:00:06.089Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-12-13T07:03:57.779Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1578,7 +1578,6 @@
       
       
       <h3 id="40-reading-book-shelf-book-shelf" tabindex="-1"><a class="internal-link" target="" data-note-icon="" href="/40-reading/book-shelf/">Book Shelf</a></h3>
-<p>Hello</p>
 
       
       
