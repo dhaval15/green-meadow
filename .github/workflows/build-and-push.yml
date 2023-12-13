@@ -37,6 +37,12 @@ jobs:
           git config user.email "github-actions@github.com"
           git config user.name "GitHub Actions"
 
+      - name: Debug
+        run: |
+          echo "GitHub Actor: ${{ github.actor }}"
+          echo "GitHub Repository: ${{ github.repository }}"
+          echo "GitHub Token: ${{ secrets.GH_TOKEN }}"
+
       - name: Commit and Push Changes
         run: |
           git remote add target-repo https://github.com/dhaval15/meadow.git # Change to your new repository URL
