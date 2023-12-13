@@ -24,31 +24,6 @@ jobs:
       - name: Build
         run: | 
           npm run build # Replace with your build command
-          echo "$(ls)"
-
-  push:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Set up Git
-        run: |
-          git config user.email "github-actions@github.com"
-          git config user.name "GitHub Actions"
-
-      - name: Debug
-        run: |
-          echo "GitHub Actor: ${{ github.actor }}"
-          echo "GitHub Repository: ${{ github.repository }}"
-
-      - name: Commit and Push Changes
-        run: |
-          # git remote add target-repo https://github.com/dhaval15/meadow.git # Change to your new repository URL
-          # git push target-repo main # Change to your target branch
-          echo "$(ls)"
           git add dist
           git commit -m "workflow: build"
           git push
