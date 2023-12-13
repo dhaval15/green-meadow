@@ -24,6 +24,23 @@ jobs:
       - name: Build
         run: | 
           npm run build # Replace with your build command
+
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config user.email "github-actions@github.com"
+          git config user.name "GitHub Actions"
+          git config advice.addIgnoredFile false
+
+      - name: Debug
+        run: |
+          echo "GitHub Actor: ${{ github.actor }}"
+          echo "GitHub Repository: ${{ github.repository }}"
+
+      - name: Commit and Push Changes
+        run: |
           git add dist
           git commit -m "workflow: build"
           git push
