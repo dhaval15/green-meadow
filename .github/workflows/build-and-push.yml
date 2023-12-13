@@ -27,6 +27,7 @@ jobs:
           git config user.email "github-actions@github.com"
           git config user.name "GitHub Actions"
           git config advice.addIgnoredFile false
-          git add dist
+          cp -r dist docs
+          git add docs
           git commit -m "workflow: build"
           git push
