@@ -22,7 +22,9 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build # Replace with your build command
+        run: | 
+          npm run build # Replace with your build command
+          echo "$(ls)"
 
   push:
     needs: build
@@ -46,6 +48,7 @@ jobs:
         run: |
           # git remote add target-repo https://github.com/dhaval15/meadow.git # Change to your new repository URL
           # git push target-repo main # Change to your target branch
+          echo "$(ls)"
           git add dist
           git commit -m "workflow: build"
           git push
