@@ -39,5 +39,5 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git remote add target-repo https://github.com/username/green-meadow-build.git # Change to your new repository URL
+          git remote add target-repo https://github.com/dhaval15/meadow.git # Change to your new repository URL
           git push green-meadow-build main # Change to your target branch
